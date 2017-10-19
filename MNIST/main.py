@@ -3,6 +3,7 @@
 import tensorflow as tf
 import numpy as np
 import pandas as pd
+import os
 
 from tensorflow.contrib.learn.python.learn.datasets.mnist import DataSet
 
@@ -52,5 +53,7 @@ validation = DataSet(val_images,
 					reshape=True)
 
 test = test_image
+
+
 
 
